@@ -568,6 +568,11 @@
     font: 700 18px Lato, sans-serif;
     border: none;
   }
+
+  .div-40:hover{
+    cursor: pointer;
+  }
+
   @media (max-width: 991px) {
     .div-40 {
       padding: 0 20px;
