@@ -19,6 +19,8 @@
     align-items: start;
     justify-content: space-between;
     gap: 20px;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #E0E6EA;
   }
   @media (max-width: 991px) {
     .div-2 {
@@ -47,6 +49,63 @@
       justify-content: center;
     }
   }
+
+  .span1{
+    font-family: Lato, -apple-system, Roboto, Helvetica,  sans-serif;
+    font-weight: 700;
+    color: rgba(29, 44, 60, 1);
+  }
+
+  .span2{
+    font-family: Lato, -apple-system, Roboto, Helvetica,sans-serif;
+    font-weight: 400;
+    color: rgba(100, 110, 122, 1);
+  }
+  .span3{
+    font-family: Lato, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+  .span4{
+    font-family: Lato, -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  .span5{
+    font-family: Lato, sans-serif; font-weight: 400
+  }
+  .span6{
+    font-family: Lato, sans-serif; font-weight: 700
+  }
+  .span7{
+    font-family: Lato, sans-serif; font-weight: 400
+  }
+  .span8{
+    font-family: Lato, sans-serif; font-weight: 700
+  }
+  .span9{
+    font-family: Lato, sans-serif; font-weight: 700
+  }
+  .span10{
+    font-family: Lato, sans-serif; font-weight: 700
+  }
+  .span11{
+    font-family: Lato, sans-serif; font-weight: 400
+  }
+  .span12{
+    font-family: Lato, sans-serif; font-weight: 400
+  }
+  .span13{
+    font-family: Lato, sans-serif; font-weight: 700
+  }
+  .span14{
+    font-family: Lato, sans-serif; font-weight: 400
+  }
+  .span15{
+    color: rgba(99, 107, 111, 1)
+  }
+  .span16{
+    color: rgba(49, 112, 143, 1)
+  }
+
   .div-4 {
     color: #1d2c3c;
     text-align: center;
@@ -92,7 +151,7 @@
     align-self: stretch;
     flex-grow: 1;
     justify-content: center;
-    padding: 15px 20px;
+    padding: 15px 24px;
     font: 700 14px Lato, sans-serif;
   }
   @media (max-width: 991px) {
@@ -545,6 +604,7 @@
     align-self: center;
     margin-top: 17px;
     max-width: 100%;
+    margin:2em 0 ;
   }
   .column-2 {
     display: flex;
@@ -582,7 +642,6 @@
     display: flex;
     margin-top: 25px;
     align-items: start;
-    justify-content: space-between;
     gap: 8px;
   }
   .div-47 {
